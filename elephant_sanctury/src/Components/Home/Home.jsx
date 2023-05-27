@@ -30,7 +30,8 @@ function Home() {
       </div>
       <div className="imgText">
         <div>
-          <img className="imgDiv"
+          <img
+            className="imgDiv"
             src="https://www.elephantsanctuary.co.za/cache/widgetkit/gallery/1/africa-elephant3-ba95c5e42e.jpg
         "
             alt=""
@@ -78,7 +79,8 @@ function Home() {
           </button>
         </div>
         <div>
-          <img className="imgDiv"
+          <img
+            className="imgDiv"
             src="https://www.tripsavvy.com/thmb/HFHhckxaCusxo24ddBo47hTU23Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/181-5ac21deea18d9e003718ce05.jpg
           "
             alt=""

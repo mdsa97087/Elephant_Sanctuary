@@ -52,13 +52,8 @@ function About() {
   ];
 
   return (
-    <div  style={{
-      position: "relative",
-      top: "100px",
-      width:'80vw',
-      margin:'auto'
-    }}>
-    <br />
+    <div className="Container1">
+      <br />
       <div>
         Elefun Elephant in Jaipur, India is a fantastic way for you to get
         hands-on experience and make a real difference in the lives of our

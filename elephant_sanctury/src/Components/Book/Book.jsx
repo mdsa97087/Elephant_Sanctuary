@@ -3,15 +3,7 @@ import Footer from "../Footer/Footer";
 
 function Book() {
   return (
-    <div
-      className="Container"
-      style={{
-        position: "relative",
-        top: "100px",
-        width:'80vw',
-        margin:'auto'
-      }}
-    >
+    <div className="Container1">
       <div className="">
         <form
           className="sendtext"

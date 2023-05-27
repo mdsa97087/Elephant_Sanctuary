@@ -4,7 +4,7 @@ import Chat from "../Chat/Chat";
 
 function Sanctuary() {
   return (
-    <div className="Container">
+    <div className="Container1">
       <div className="imgText">
         <div>
           <img className="imgDiv"

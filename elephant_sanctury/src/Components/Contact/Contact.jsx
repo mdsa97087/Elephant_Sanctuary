@@ -1,21 +1,26 @@
 import React from "react";
 import Footer from "../Footer/Footer";
+import "./Contact.css"
+
 
 function Contact() {
   return (
-    <div
-      style={{
-        position: "relative",
-        top: "100px",
-        width: "80vw",
-        margin: "auto",
-      }}
-    >
+    <div className="Container1">
+      <iframe className="iframe"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.09175137565!2d75.8806318253207!3d26.995647226597843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db06ceab2c0a3%3A0xbfb6317a148072b7!2sHathi%20Gaon%2C%20Rajasthan%20302028!5e0!3m2!1sen!2sin!4v1685212581048!5m2!1sen!2sin"
+        width="1200"
+        height="500"
+        // style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
       <div
         style={{
           display: "flex",
           flexWrap: "wrap",
-          gap: "25px",
+          gap: "60px",
+          margin:"50px 0px"
         }}
       >
         <div
@@ -39,26 +44,39 @@ function Contact() {
             to make your trip to India best one.
           </p>
         </div>
-        <div>
+        <div
+          style={{
+            textAlign: "left",
+          }}
+        >
           <div>
             <h6>Asif Khan</h6>
           </div>
 
-          <div style={{
-            display:'flex',
-            gap:'20px'
-          }}>
+          <div
+            style={{
+              display: "flex",
+              gap: "20px",
+              flexWrap: "wrap",
+            }}
+          >
+            <h5>+919024646308</h5>
+
             <a href="tel:+919024646308">
               <button type="button" className="btn btn-primary">
                 CALL
               </button>
             </a>
             <a href="https://wa.me/+919024646308">
-              <button type="button" className="btn btn-primary">
+              <button type="button" className="btn btn-success">
                 WHATSAPP
               </button>
             </a>
-            <h5>+919024646308</h5>
+          </div>
+          <div>
+            <a href="maito:asif@gmail.com">
+              <h5>asi9f@gmail.com</h5>
+            </a>
           </div>
         </div>
       </div>

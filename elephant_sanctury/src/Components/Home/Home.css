@@ -10,6 +10,13 @@
       top: 50px;
 }
 
+.Container1 {
+      position: relative;
+      top: 100px;
+      width: 80vw;
+      margin: auto;
+
+}
 
 
 p {
