@@ -1,0 +1,99 @@
+* {
+      margin: 0%;
+      padding: 0%;
+}
+
+.allnavbar {
+      width: 100%;
+      top: 0px;
+      position: fixed;
+      z-index: 999;
+
+}
+
+
+nav {
+      width: 80vw;
+      display: flex;
+      height: 75px;
+      align-items: center;
+      justify-content: space-between;
+      margin: auto;
+
+}
+
+.nav2 {
+      display: flex;
+      width: 50vw;
+      justify-content: space-between;
+      align-items: center;
+      /* gap: 40px; */
+      font-size: 1.2rem;
+
+}
+
+.link {
+      text-decoration: none;
+      color: aliceblue;
+      font-weight: 600;
+
+}
+
+
+/*          ```````           FOR RESPONSIVE NAVBAR         ---- */
+
+#fa1 {
+      display: none;
+}
+
+#offcanvasExample {
+      /* border: 2px solid blue; */
+      width: 150px;
+      height: 350px;
+      background-color: rgba(41, 39, 0, 0.226);
+      z-index: 9999;
+
+}
+
+.offcanvas-header {
+      height: 75px;
+      font-size: 1.5rem;
+}
+
+.responseNavbar {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 15px;
+      gap: 20px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+      #fa1 {
+            display: contents;
+            display: flex;
+            justify-content: right;
+            align-items: right;
+
+      }
+
+      .nav2 {
+            display: none;
+      }
+
+      .nav202 {
+            border: 1px solid yellowgreen;
+            width: 95vw;
+      }
+
+}
+
+
+
+
+/*    --------          Active Navbar --------         */
+
+#home {
+      color: rgb(0, 255, 21);
+}

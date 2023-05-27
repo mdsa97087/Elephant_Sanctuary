@@ -1,0 +1,118 @@
+* {
+      padding: 0%;
+      margin: 0%;
+      background-color: #583e3ed4;
+      color: white;
+}
+
+.Container {
+      position: relative;
+      top: 50px;
+}
+
+
+
+p {
+      font-size: 1.1rem;
+}
+
+img {
+      border-radius: 10px;
+}
+
+.HomebcDiv {
+      background-image: url("https://feelgoodandtravel.com/wp-content/uploads/the-amazing-elephants-of-karen-elephant-serenity-sanctuary-in-thailand.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      height: 650px;
+
+
+}
+
+.imageh1 {
+      color: rgba(4, 242, 127, 0.967);
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      background-image: linear-gradient(rgba(255, 0, 0, 0.496), rgba(0, 0, 0, 0.552));
+      background-color: #60654579 !important;
+
+
+}
+
+.elep {
+      color: rgb(225, 255, 0);
+      font-size: 6rem;
+
+}
+
+.imgText {
+      width: 80vw;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+}
+
+.imgText>div {
+      /* border: 2px solid wheat; */
+      flex: 1 1 400px;
+}
+
+.imgDiv {
+      width: 600px;
+}
+
+
+.textDiv {
+      text-align: justify;
+      padding: 50px;
+      border-radius: 10%;
+      margin-bottom: 35px;
+}
+
+
+
+/*          ```````           FOR RESPONSIVE          ---- */
+
+@media screen and (max-width: 1000px) {
+
+      .Container {
+            position: relative;
+            top: 80px;
+      }
+
+      .HomebcDiv {
+            background-image: url("https://feelgoodandtravel.com/wp-content/uploads/the-amazing-elephants-of-karen-elephant-serenity-sanctuary-in-thailand.jpg");
+            background-size: 100% 45%;
+            height: 250px;
+      }
+
+
+
+      .imageh1 {
+            font-size: 1.1rem;
+      }
+
+      .elep {
+            font-size: 1.5rem;
+      }
+
+
+      .imgText img {
+            width: 100%;
+      }
+
+      .imgText>div {
+            width: 100%;
+      }
+
+      .textDiv {
+            text-align: justify;
+            width: 360px;
+            padding: 0px;
+            border-radius: 0px;
+      }
+}
