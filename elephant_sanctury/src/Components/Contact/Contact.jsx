@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "../Footer/Footer";
-import "./Contact.css"
-
+import "./Contact.css";
 
 function Contact() {
   return (
     <div className="Container1">
-      <iframe className="iframe"
+      <iframe
+        className="iframe"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.09175137565!2d75.8806318253207!3d26.995647226597843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db06ceab2c0a3%3A0xbfb6317a148072b7!2sHathi%20Gaon%2C%20Rajasthan%20302028!5e0!3m2!1sen!2sin!4v1685212581048!5m2!1sen!2sin"
         width="1200"
         height="500"
@@ -20,7 +20,7 @@ function Contact() {
           display: "flex",
           flexWrap: "wrap",
           gap: "60px",
-          margin:"50px 0px"
+          margin: "50px 0px",
         }}
       >
         <div
@@ -53,6 +53,7 @@ function Contact() {
             <h6>Asif Khan</h6>
           </div>
 
+          <br />
           <div
             style={{
               display: "flex",
@@ -73,6 +74,7 @@ function Contact() {
               </button>
             </a>
           </div>
+          <br />
           <div>
             <a href="maito:asif@gmail.com">
               <h5>asi9f@gmail.com</h5>
