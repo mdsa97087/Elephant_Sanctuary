@@ -6,13 +6,13 @@ function Footer() {
   return (
     <section
       style={{
-        marginTop: "70px",
+        marginTop: "50px",
       }}
     >
       <div className="project2div">
         <div className="footer2div">
           <p align="justify">
-            Elefun Elephant in Jaipur, India is a fantastic way for you to get
+            Elephantegy in Jaipur, India is a fantastic way for you to get
             hands-on experience and make a real difference in the lives of our
             elephants. Experience the most exciting, innovative, working
             elephant village in India, dedicated to conserving elephants. You
@@ -27,7 +27,6 @@ function Footer() {
             gridTemplateColumns: "1fr",
           }}
         >
-
           <div
             style={{
               display: "grid",
@@ -102,11 +101,11 @@ function Footer() {
                   width={"25px"}
                   height="25px"
                 />
-                <h6>mdsa97087@gmail.com</h6>
+                <h6>elephantegy@gmail.com</h6>
               </a>
             </div>
             <div className="footercontact3">
-              <a className="footercontact3" href="tel:+919708768232">
+              <a className="footercontact3" href="tel:+919024646308">
                 <img
                   src="https://i.imgur.com/ti7H0Bd.png
           "
@@ -114,7 +113,7 @@ function Footer() {
                   width={"30px"}
                   height="30px"
                 />
-                <h6>+91 9708768232</h6>
+                <h6>+91 9024646308</h6>
               </a>
             </div>
           </div>
@@ -122,7 +121,15 @@ function Footer() {
       </div>
       <div className="footerSocialMedia">
         <div className="aDivFooter">
-          <a href="">
+        <a href="https://www.youtube.com/@nikasifgamer6146">
+            <img
+              src="https://i.imgur.com/nsG07I5.png
+                  "
+              alt=""
+              width={"35px"}
+            />
+          </a>
+          <a href="https://twitter.com/elephantegy">
             <img
               src="https://i.imgur.com/eYB5PbT.png
                   "
@@ -130,7 +137,7 @@ function Footer() {
               width={"32px"}
             />
           </a>
-          <a href="https://www.facebook.com/mdshamshad.alam.31149/">
+          <a href="https://www.facebook.com/profile.php?id=100093262869442">
             <img
               src="https://i.imgur.com/Vbd2Mz5.png
                   "
@@ -138,7 +145,7 @@ function Footer() {
               width={"32px"}
             />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/elephantegy/">
             <img
               src="https://i.imgur.com/85RbKaN.png
                   "
@@ -146,7 +153,7 @@ function Footer() {
               width={"32px"}
             />
           </a>
-          <a href="https://wa.me/+919708768232">
+          <a href="https://wa.me/+919024646308">
             <img
               src="https://i.imgur.com/C8MvhvI.png
                   "
@@ -154,30 +161,45 @@ function Footer() {
               width={"35px"}
             />
           </a>
+         
         </div>
       </div>
-      <section>
-        <h5
+      <br />
+      <section className="nameSection">
+        <span
           style={{
-            textAlign: "center",
             marginTop: "50px",
+            color: "black",
+            fontSize: "20px",
+            background: "transparent",
           }}
         >
-          Created By --
-          <a className="md" href="mailto:mdsa97087@gmail.com"> Md Shamshad Alam</a>
-          <span>
-            <img
-              style={{
-                marginLeft: "10px",
-              }}
-              src="https://i.imgur.com/T6ImRC4.gif
-            "
-              alt=""
-              width={30}
-            />
+          created by --
+          <a className="md" href="mailto:mdsa97087@gmail.com">
+            {" "}
+            Md Shamshad Alam
+          </a>
+        </span>
+        <br />
+        <div
+          className="nameSection"
+          style={{
+            fontSize: "20px",
+          }}
+        >
+          <span style={{ color: "black", background: "transparent" }}>
+            Owner :-
+          </span>{" "}
+          <span
+            style={{
+              background: "transparent",
+            }}
+          >
+            Asif Khan
           </span>
-        </h5>
+        </div>
       </section>
+
       <br />
     </section>
   );

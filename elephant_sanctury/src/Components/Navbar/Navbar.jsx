@@ -11,12 +11,13 @@ function Navbar() {
           <Link to="/" className="link">
             <img
               style={{
-                borderRadius: "50%",
+                borderRadius: "0%",
+                backgroundColor: "#FCE9F1",
               }}
-              src="https://i.imgur.com/wCWoU0V.png
+              src="https://i.imgur.com/jPom1X4.png
             "
               alt=""
-              width={65}
+              // width={250}
               height={65}
             />
           </Link>
@@ -34,9 +35,9 @@ function Navbar() {
           <Link to="/contact" className="link">
             CONTACT
           </Link>
-          <Link to="book">
+          <Link to="book" className="link">
             <button type="button" className="btn btn-primary">
-              BOOK
+              BOOK NOW
             </button>
           </Link>
         </div>
@@ -56,9 +57,9 @@ function Navbar() {
         aria-labelledby="offcanvasExampleLabel"
       >
         <div className="offcanvas-header">
-          <h5 className="offcanvas-title" id="offcanvasExampleLabel">
-            SHAMSHAD
-          </h5>
+          <h6 className="offcanvas-title" id="offcanvasExampleLabel">
+            ELEPHANTEGY
+          </h6>
         </div>
         <ReaNavbar />
       </div>

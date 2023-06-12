@@ -8,6 +8,7 @@
       top: 0px;
       position: fixed;
       z-index: 999;
+      background-color: #FCE9F1;
 
 }
 
@@ -19,6 +20,8 @@ nav {
       align-items: center;
       justify-content: space-between;
       margin: auto;
+      background-color: #FCE9F1;
+
 
 }
 
@@ -29,15 +32,34 @@ nav {
       align-items: center;
       /* gap: 40px; */
       font-size: 1.2rem;
+      background-color: #FCE9F1;
+
 
 }
 
 .link {
       text-decoration: none;
-      color: aliceblue;
+      color: rgb(0, 6, 12);
       font-weight: 600;
+      background-color: #FCE9F1;
+
 
 }
+
+.offcanvas-title{
+      outline: #080202 solid 5px;
+      border-radius: 5px;
+      background-color: #F266AB;
+      padding: 2px 5px;
+      color: black;
+}
+
+.btn{
+      border-radius: 10px;
+}
+
+
+
 
 
 /*          ```````           FOR RESPONSIVE NAVBAR         ---- */

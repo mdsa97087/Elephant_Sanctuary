@@ -76,8 +76,8 @@ function Contact() {
           </div>
           <br />
           <div>
-            <a href="maito:asif@gmail.com">
-              <h5>asi9f@gmail.com</h5>
+            <a href="maito:elephantegy@gmail.com">
+              <h5>elephantegy@gmail.com</h5>
             </a>
           </div>
         </div>
@@ -108,13 +108,20 @@ function Contact() {
             name="number"
             placeholder="Your Number"
           />
+          <input
+            className="contactinput"
+            type="text"
+            name="number"
+            placeholder="Country"
+          />
+          <input
+            className="contactinput"
+            type="date"
+            name="number"
+            placeholder="Date"
+          />
           <textarea
-            style={{
-              border: "2px solid",
-              borderRadius: "8px",
-              padding: "15px",
-              fontSize: "1.2rem",
-            }}
+             className="contactinput"
             name="message"
             id=""
             cols="30"
@@ -129,6 +136,7 @@ function Contact() {
               fontSize: "1.5rem",
               fontWeight: "700",
               borderRadius: "10px",
+              backgroundColor:'blue'
             }}
           >
             Book
