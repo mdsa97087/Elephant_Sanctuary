@@ -76,7 +76,7 @@ function Contact() {
           </div>
           <br />
           <div>
-            <a href="maito:elephantegy@gmail.com">
+            <a href="mailto:elephantegy@gmail.com">
               <h5>elephantegy@gmail.com</h5>
             </a>
           </div>
@@ -85,6 +85,7 @@ function Contact() {
       <div className="">
         <form
           className="sendtext"
+          // action="https://getform.io/f/24075b61-a48c-4ada-82b5-1effda7b893c"
           action="https://getform.io/f/0f604800-34ab-4d25-b278-56f5b4399c53"
           method="POST"
         >
@@ -104,25 +105,26 @@ function Contact() {
           />
           <input
             className="contactinput"
-            type="number"
+            type="text"
             name="number"
             placeholder="Your Number"
           />
           <input
             className="contactinput"
             type="text"
-            name="number"
+            name="Country"
             placeholder="Country"
           />
           <input
             className="contactinput"
             type="date"
-            name="number"
+            name="Date"
             placeholder="Date"
           />
           <textarea
              className="contactinput"
             name="message"
+            type="text"
             id=""
             cols="30"
             rows="5"

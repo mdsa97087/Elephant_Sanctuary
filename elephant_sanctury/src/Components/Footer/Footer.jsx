@@ -93,7 +93,7 @@ function Footer() {
               <h6>Jaipur, Amer 302028</h6>
             </div>
             <div className="footercontact3">
-              <a className="footercontact3" href="mailto:mdsa97087@gmail.com">
+              <a className="footercontact3" href="mailto:elephantegy@gmail.com">
                 <img
                   src="https://cdn.iconscout.com/icon/free/png-128/gmail-2981844-2476484.png
                   "
