@@ -177,7 +177,7 @@ function Footer() {
           created by --
           <a className="md" href="mailto:mdsa97087@gmail.com">
             {" "}
-            Md Shamshad Alam
+            Shamshad Shaikh
           </a>
         </span>
         <br />

@@ -5,8 +5,8 @@ import "./Navbar.css";
 function ReaNavbar() {
   return (
     <div>
-      <div className="responseNavbar">
-        <Link className="FooterLink" to="/">
+      <div  className="responseNavbar">
+        <Link id="FooterLink" className="FooterLink" to="/">
           <img
             src="https://i.imgur.com/HwQxkkD.png
              "
@@ -15,15 +15,15 @@ function ReaNavbar() {
           />
           HOME
         </Link>
-        <Link className="FooterLink" to="/sanctuary">
+        <Link id="FooterLink" className="FooterLink" to="/sanctuary">
           <img
             src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/70/47/1a.jpg"
             alt=""
             width={"25px"}
           />
-          Sanctuary
+          SANCTUARY
         </Link>
-        <Link className="FooterLink" to="/about">
+        <Link id="FooterLink" className="FooterLink" to="/about">
           <img
             src="https://cdn.iconscout.com/icon/free/png-128/about-help-info-information-details-ask-6003.png
                 "
@@ -33,7 +33,7 @@ function ReaNavbar() {
           ABOUT
         </Link>
 
-        <Link className="FooterLink" to="/contact">
+        <Link id="FooterLink" className="FooterLink" to="/contact">
           <img
             src="https://cdn.iconscout.com/icon/free/png-128/contact-1817237-1538106.png
             "

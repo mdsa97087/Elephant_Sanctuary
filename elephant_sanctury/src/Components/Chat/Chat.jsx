@@ -45,12 +45,30 @@ function Chat() {
               placeholder="Your Email"
               required
             />
+            <input
+              className="contactinput"
+              type="number"
+              name="number"
+              placeholder="Your Number"
+            />
+            <input
+              className="contactinput"
+              type="text"
+              name="number"
+              placeholder="Country"
+            />
+            <input
+              className="contactinput"
+              type="date"
+              name="number"
+              placeholder="Date"
+            />
             <textarea
               className="contactinput"
               name="message"
               id=""
-              cols="30"
-              rows="5"
+              cols="20"
+              rows="3"
               placeholder="Message"
             ></textarea>
             <button
