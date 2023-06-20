@@ -47,26 +47,30 @@ nav {
 }
 
 
-.offcanvas-title{
-      outline: #080202 solid 5px;
+.offcanvas-title {
+      /* outline: #080202 solid 5px; */
       border-radius: 5px;
       background-color: #F266AB;
-      padding: 2px 5px;
+      padding: 5px 8px;
       color: black;
 }
 
-.btn{
+.btn {
       border-radius: 10px;
 }
 
 
-#FooterLink{
+#FooterLink {
       width: 160px;
       height: 30px;
       background-color: black;
 
 }
 
+.offcanvas-header {
+      background-color: rgb(114, 177, 233);
+
+}
 
 
 
@@ -121,7 +125,7 @@ nav {
             border: 1px solid yellowgreen;
             width: 95vw;
       }
-      
+
 
 }
 

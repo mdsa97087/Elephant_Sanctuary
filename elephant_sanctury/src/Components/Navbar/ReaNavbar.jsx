@@ -42,6 +42,11 @@ function ReaNavbar() {
           />
           CONTACT
         </Link>
+        <Link to="book" id="FooterLink">
+            <button type="button" className="btn btn-primary">
+              BOOK NOW
+            </button>
+          </Link>
       </div>
     </div>
   );

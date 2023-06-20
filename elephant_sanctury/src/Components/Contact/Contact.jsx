@@ -15,71 +15,51 @@ function Contact() {
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
+
       <div
         style={{
           display: "flex",
           flexWrap: "wrap",
-          gap: "60px",
           margin: "50px 0px",
+          justifyContent: "space-around",
+          gap: "25px",
         }}
       >
-        <div
-          style={{
-            width: "500px",
-            textAlign: "justify",
-          }}
-        >
-          <p>
-            Dear Guests, ​ This has come to our notice that Travel Agents,
-            Tourist Guides and Drivers are misguiding naive tourists and getting
-            the commission from there under the guise of Elefun and taking them
-            to other elephant barns or homes. Kindly note, The Agents, Guides &
-            Drivers are given a hefty commission from other elephant companies
-            for this trickery. They are conning Tourists in the name of Elefun,
-            and naturally not living up to the expectation and experience. If
-            you are a tourist visiting Jaipur & want to enjoy the authentic
-            Elefun experience, we urge you to be vigilant and BOOK ONLY through
-            AFTAB (info@elefun.in) and no other middle man. Also note that
-            walk-ins without prior bookings are not possible at Elefun. We hope
-            to make your trip to India best one.
-          </p>
+        <div className="support">
+          <a className="supportA" href="tel:+919024646308">
+            <img
+              src="https://i.gifer.com/Wc8C.gif
+              "
+              alt=""
+              width={150}
+              height={150}
+            />
+            <p className="supportA">+919024646308</p>
+          </a>
         </div>
-        <div
-          style={{
-            textAlign: "left",
-          }}
-        >
-          <div>
-            <h6>Asif Khan</h6>
-          </div>
+        <div className="support">
+          <a className="supportA" href="mailto:elephantegy@gmail.com">
+            <img
+              src="https://i.gifer.com/Anm7.gif
+              "
+              alt=""
+              width={150}
+              height={150}
 
-          <br />
-          <div
-            style={{
-              display: "flex",
-              gap: "20px",
-              flexWrap: "wrap",
-            }}
-          >
-            <h5>+919024646308</h5>
-
-            <a href="tel:+919024646308">
-              <button type="button" className="btn btn-primary">
-                CALL
-              </button>
-            </a>
-            <a href="https://wa.me/+919024646308">
-              <button type="button" className="btn btn-success">
-                WHATSAPP
-              </button>
-            </a>
-          </div>
-          <br />
-          <div>
-            <a href="mailto:elephantegy@gmail.com">
-              <h5>elephantegy@gmail.com</h5>
-            </a>
-          </div>
+            />
+            <p className="supportA">elephantegy@gmail.com</p>
+          </a>
+        </div>
+        <div className="support">
+          <a className="supportA" href="https://wa.me/+919024646308">
+            <img
+              src="https://media.tenor.com/-QZ6G1KAOcsAAAAM/whatsapp-logo-whatsapp.gif
+              "
+              alt=""
+              width={150}
+            />
+            <p className="supportA">Whatsapp</p>
+          </a>
         </div>
       </div>
       <div className="">
@@ -122,7 +102,7 @@ function Contact() {
             placeholder="Date"
           />
           <textarea
-             className="contactinput"
+            className="contactinput"
             name="message"
             type="text"
             id=""
@@ -138,7 +118,7 @@ function Contact() {
               fontSize: "1.5rem",
               fontWeight: "700",
               borderRadius: "10px",
-              backgroundColor:'blue'
+              backgroundColor: "blue",
             }}
           >
             Book

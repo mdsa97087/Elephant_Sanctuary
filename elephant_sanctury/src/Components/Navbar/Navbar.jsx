@@ -56,11 +56,13 @@ function Navbar() {
         id="offcanvasExample"
         aria-labelledby="offcanvasExampleLabel"
       >
-        <div className="offcanvas-header">
-          <h6 className="offcanvas-title" id="offcanvasExampleLabel">
-            ELEPHANTEGY
-          </h6>
-        </div>
+        <Link to="/" className="link">
+          <div className="offcanvas-header">
+            <h6 className="offcanvas-title" id="offcanvasExampleLabel">
+              ELEPHANTEGY
+            </h6>
+          </div>
+        </Link>
         <ReaNavbar />
       </div>
     </div>
