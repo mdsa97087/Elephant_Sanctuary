@@ -52,31 +52,33 @@ function About() {
   ];
 
   return (
-    <div className="Container1">
-      <br />
-      <div>
-        Elephantegy in Jaipur, India is a fantastic way for you to get hands-on
-        experience and make a real difference in the lives of our elephants.
-        Experience the most exciting, innovative, working elephant village in
-        India, dedicated to conserving elephants. You can learn about their
-        basic habits of food, life, and traditional decoration. People from
-        Elephantegy is engaged with Elephant by birth, not by profession. Our
-        family has been Elephant and taking care of Elephant's for 4 generations
-        but now a days we have a very different world where everyone has a busy
-        lives. So we have created these activities with Elephant's for people
-        who want to be a Mahout (Care taker of Elephant) of a beautiful and
-        gentle Giant.
+    <div>
+      <div className="Container1">
+        <br />
+        <div>
+          Elephantegy in Jaipur, India is a fantastic way for you to get
+          hands-on experience and make a real difference in the lives of our
+          elephants. Experience the most exciting, innovative, working elephant
+          village in India, dedicated to conserving elephants. You can learn
+          about their basic habits of food, life, and traditional decoration.
+          People from Elephantegy is engaged with Elephant by birth, not by
+          profession. Our family has been Elephant and taking care of Elephant's
+          for 4 generations but now a days we have a very different world where
+          everyone has a busy lives. So we have created these activities with
+          Elephant's for people who want to be a Mahout (Care taker of Elephant)
+          of a beautiful and gentle Giant.
+        </div>
+        <div
+          style={{
+            gap: "30px",
+          }}
+        >
+          {image.map((e, src) => (
+            <img className="mapImg" src={e.src} alt="" width={300} />
+          ))}
+        </div>
+        <Chat />
       </div>
-      <div
-        style={{
-          gap: "30px",
-        }}
-      >
-        {image.map((e, src) => (
-          <img className="mapImg" src={e.src} alt="" width={300} />
-        ))}
-      </div>
-      <Chat />
       <Footer />
     </div>
   );

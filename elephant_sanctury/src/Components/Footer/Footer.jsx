@@ -6,7 +6,7 @@ function Footer() {
   return (
     <section
       style={{
-        marginTop: "50px",
+        marginTop: "150px",
       }}
     >
       <div className="project2div">
@@ -108,7 +108,7 @@ function Footer() {
               <a className="footercontact3" href="tel:+919024646308">
                 <img
                   src="https://i.imgur.com/ti7H0Bd.png
-          "
+                 "
                   alt=""
                   width={"30px"}
                   height="30px"
@@ -121,7 +121,7 @@ function Footer() {
       </div>
       <div className="footerSocialMedia">
         <div className="aDivFooter">
-        <a href="https://www.youtube.com/@nikasifgamer6146">
+          <a href="https://www.youtube.com/@nikasifgamer6146">
             <img
               src="https://i.imgur.com/nsG07I5.png
                   "
@@ -161,34 +161,33 @@ function Footer() {
               width={"35px"}
             />
           </a>
-         
         </div>
       </div>
       <br />
       <section className="nameSection">
+        <br />
         <span
           style={{
             marginTop: "50px",
-            color: "black",
-            fontSize: "20px",
+            color: "red",
+            fontSize: "18px",
             background: "transparent",
           }}
         >
-          created by --
+          created by--
           <a className="md" href="mailto:mdsa97087@gmail.com">
-            {" "}
-            Shamshad Shaikh
+            Shamshad
           </a>
         </span>
         <br />
         <div
           className="nameSection"
           style={{
-            fontSize: "20px",
+            fontSize: "18px",
           }}
         >
-          <span style={{ color: "black", background: "transparent" }}>
-            Owner :-
+          <span style={{ color: "red", background: "transparent" }}>
+            Owner:-
           </span>{" "}
           <span
             style={{
@@ -198,9 +197,9 @@ function Footer() {
             Asif Khan
           </span>
         </div>
+        <br />
+        <br />
       </section>
-
-      <br />
     </section>
   );
 }

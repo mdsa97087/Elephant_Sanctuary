@@ -1,6 +1,7 @@
 // import { click } from "@testing-library/user-event/dist/click";
 import React, { useState } from "react";
 import "./Chat.css";
+import ChatForm from "./ChatForm";
 
 function Chat() {
   const [state, setstate] = useState(false);
@@ -17,76 +18,10 @@ function Chat() {
             onClick={() => setstate(false)}
             type="button"
             className="btn-close text-reset"
-            aria-label="Close"
+            ariaLabel="Close"
           ></button>
           <br />
-          <form
-            className="sendtext"
-            // action="https://getform.io/f/24075b61-a48c-4ada-82b5-1effda7b893c"
-            action="https://getform.io/f/0f604800-34ab-4d25-b278-56f5b4399c53"
-            method="POST"
-          >
-            <input
-              style={{
-                height: "50px",
-              }}
-              className="contactinput"
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              required
-            />
-            <input
-              style={{
-                height: "50px",
-              }}
-              className="contactinput"
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-            <input
-              className="contactinput"
-              type="text"
-              name="number"
-              placeholder="Your Number"
-            />
-            <input
-              className="contactinput"
-              type="text"
-              name="Country"
-              placeholder="Country"
-            />
-            <input
-              className="contactinput"
-              type="date"
-              name="Date"
-              placeholder="Date"
-            />
-            <textarea
-              className="contactinput"
-              name="message"
-              type="text"
-              id=""
-              cols="20"
-              rows="3"
-              placeholder="Message"
-            ></textarea>
-            <button
-              type="submit"
-              style={{
-                border: "2px solid",
-                height: "50px",
-                fontSize: "1.5rem",
-                fontWeight: "700",
-                borderRadius: "10px",
-                backgroundColor: "blue",
-              }}
-            >
-              Book
-            </button>
-          </form>
+          <ChatForm />
         </div>
       ) : (
         <img

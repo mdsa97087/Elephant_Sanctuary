@@ -59,7 +59,7 @@ function Navbar() {
         <Link to="/" className="link">
           <div className="offcanvas-header">
             <h6 className="offcanvas-title" id="offcanvasExampleLabel">
-              ELEPHANTEGY
+              𝙴𝚕𝚎𝚙𝚑𝚊𝚗𝚝𝚎𝚐𝚢
             </h6>
           </div>
         </Link>

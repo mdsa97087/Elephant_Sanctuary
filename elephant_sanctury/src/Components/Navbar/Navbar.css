@@ -26,11 +26,11 @@ nav {
 }
 
 .nav2 {
+
       display: flex;
       width: 50vw;
       justify-content: space-between;
       align-items: center;
-      /* gap: 40px; */
       font-size: 1.2rem;
       background-color: #FCE9F1;
 
@@ -48,11 +48,17 @@ nav {
 
 
 .offcanvas-title {
-      /* outline: #080202 solid 5px; */
+      /* border: #f6f3f3 solid 3px; */
       border-radius: 5px;
-      background-color: #F266AB;
-      padding: 5px 8px;
-      color: black;
+      /* padding: 5px 8px; */
+      color: rgb(17, 0, 0);
+      font-size: 20px;
+      font-weight: 800;
+      width: 200px;
+      background: none;
+      margin-left: -40px;
+      text-shadow: -2px 0 rgb(5, 5, 5), 0 1px rgb(249, 4, 4), 1px 0 rgb(0, 0, 0), 0 -1px rgb(6, 0, 0);
+
 }
 
 .btn {
@@ -68,8 +74,11 @@ nav {
 }
 
 .offcanvas-header {
-      background-color: rgb(114, 177, 233);
-
+      /* background-color: rgb(237, 240, 243); */
+      background-image: url("https://wallpaperaccess.com/full/2797124.jpg");
+      /* background-repeat: no-repeat; */
+      /* background-attachment: fixed; */
+      background-position: 100%;
 }
 
 
@@ -86,7 +95,7 @@ nav {
       height: 100%;
       background-color: black;
       z-index: 9999;
-
+      box-shadow: rgba(44, 25, 37, 0.4) 5px 5px, rgba(23, 12, 19, 0.3) 10px 10px, rgba(45, 34, 41, 0.2) 15px 15px, rgba(73, 40, 61, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
 }
 
 .offcanvas-header {

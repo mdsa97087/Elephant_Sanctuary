@@ -1,4 +1,5 @@
 .project2div {
+      /* border: 1px solid blue; */
       display: flex;
       flex-wrap: wrap;
       width: 80vw;
@@ -6,6 +7,7 @@
       margin: auto;
       justify-content: center;
       margin-top: 30px;
+
 }
 
 .footer2div {
@@ -41,7 +43,7 @@
 }
 
 .footerSocialMedia {
-      /* height: 90px; */
+      /* border: 1px solid blue; */
       width: 80vw;
       display: flex;
       flex-wrap: wrap;
@@ -59,11 +61,12 @@
 
 .md {
       color: rgba(255, 255, 255, 0.999);
-      background:transparent;
+      background: transparent;
 
 }
 
 
-.nameSection{
-      background-color: rgba(0, 0, 0, 0.185);
+.nameSection {
+      width: 100%;
+      background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg");
 }
