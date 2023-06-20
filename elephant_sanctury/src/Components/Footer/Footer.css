@@ -54,7 +54,7 @@
 }
 
 .aDivFooter>a {
-      margin-right: 20px;
+      margin-right: 15px;
 
 }
 
@@ -69,4 +69,15 @@
 .nameSection {
       width: 100%;
       background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg");
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+      .nameSection {
+            width: 100vw;
+      }
+
 }
