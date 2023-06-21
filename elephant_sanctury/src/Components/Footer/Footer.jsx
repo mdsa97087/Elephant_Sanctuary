@@ -153,7 +153,7 @@ function Footer() {
               width={"32px"}
             />
           </a>
-          <a href="https://wa.me/+919024646308">
+          <a  href="https://wa.me/+919024646308">
             <img
               src="https://i.imgur.com/C8MvhvI.png
                   "

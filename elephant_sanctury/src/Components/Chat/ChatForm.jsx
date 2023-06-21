@@ -28,27 +28,28 @@ function ChatForm() {
           type="text"
           name="number"
           placeholder="Your Number"
+          required
         />
         <input
           className="contactinput"
           type="text"
           name="Country"
           placeholder="Country"
+          required
         />
-        <div>
-          <label htmlFor="">Date</label>
-          <input
-            className="contactinput"
-            type="date"
-            name="Date"
-            placeholder="Date"
-          />
-        </div>
 
-        <select name="plan Your Trip" id="" className="contactinput">
+        <input
+          className="contactinput"
+          type="text"
+          name="Date"
+          placeholder="Enter Date  DD/MM/YYYY"
+          required
+        />
+
+        <select name="Plan Your Trip" id="" className="contactinput">
           <option value="">Select Your Tour</option>
-          <option value="">Heritage Walk Jaipur</option>
-          <option value="">Jaipur Day Tour</option>
+          <option value="Heritage Walk Jaipur">Heritage Walk Jaipur</option>
+          <option value="Jaipur Day Tour">Jaipur Day Tour</option>
         </select>
         <textarea
           className="contactinput"
