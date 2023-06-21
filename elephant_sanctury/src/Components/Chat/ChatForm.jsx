@@ -8,7 +8,7 @@ function ChatForm() {
         // action="https://getform.io/f/24075b61-a48c-4ada-82b5-1effda7b893c"
         action="https://getform.io/f/0f604800-34ab-4d25-b278-56f5b4399c53"
         method="POST"
-      >
+           >
         <input
           className="contactinput"
           type="text"

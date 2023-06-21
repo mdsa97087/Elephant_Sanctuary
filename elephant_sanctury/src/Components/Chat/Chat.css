@@ -7,7 +7,6 @@
       border-radius: 8px;
       background-color: #faf6f607;
       background-image: url("https://previews.123rf.com/images/belinka/belinka1208/belinka120800035/14835229-vintage-background-with-flower-and-leaf.jpg");
-
 }
 
 .btn-close {
@@ -38,7 +37,7 @@
       
 }
 
-.chat {
+.chatImg {
       position: fixed;
       z-index: 9;
       bottom: 10px;

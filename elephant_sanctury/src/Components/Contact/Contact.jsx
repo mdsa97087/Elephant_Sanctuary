@@ -62,7 +62,7 @@ function Contact() {
             </a>
           </div>
         </div>
-        <div className="">
+        <div className="chatFormDiv">
           <ChatForm />
         </div>
       </div>

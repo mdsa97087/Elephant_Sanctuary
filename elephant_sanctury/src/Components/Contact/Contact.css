@@ -1,17 +1,15 @@
-
-
-.support{
+.support {
       width: 200px;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
       border-radius: 10px;
 }
 
-.support:hover{
+.support:hover {
       transform: scale(1.05);
 }
 
 
-.supportA{
+.supportA {
       text-decoration: none;
       background-color: aliceblue;
       color: black;
@@ -22,8 +20,32 @@
 
 
 @media screen and (max-width: 800px) {
-      .iframe{
+      .iframe {
             width: 300px;
             height: 200px;
+      }
+
+      .chatFormDiv {
+            border: 2px solid burlywood;
+            width: 220px;
+            margin: auto;
+      }
+
+      .sendtext {
+            width: 220px;
+
+      }
+
+      .contactinput {
+            width: 220px;
+      }
+
+      .support {
+            width: 150px;
+      }
+
+      .supportA {
+            font-size: 12px;
+
       }
 }
