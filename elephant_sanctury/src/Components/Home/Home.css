@@ -77,12 +77,13 @@ img {
 .mapImg {
       margin: 20px;
       border-radius: 10px;
+      width: 250px;
       /* animation: mymove  20s infinite ; */
 }
 
 
 .mapImg:hover {
-      scale: 1.5;
+      scale: 1.2;
       rotate: 1;
 }
 
@@ -136,5 +137,9 @@ img {
       .d-block {
             width: 100%;
             height: 200px;
+      }
+
+      .mapImg {
+            width: 170px;
       }
 }

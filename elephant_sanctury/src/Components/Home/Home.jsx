@@ -136,10 +136,12 @@ function Home() {
       <div
         style={{
           gap: "30px",
+          width: "80vw",
+          margin:"auto"
         }}
       >
         {homeImage.map((e, src) => (
-          <img className="mapImg" src={e.src} alt="" width={300} />
+          <img className="mapImg" src={e.src} alt="" />
         ))}
       </div>
       <Chat />
